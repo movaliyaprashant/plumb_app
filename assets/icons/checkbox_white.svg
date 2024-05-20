@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="39" viewBox="0 0 40 39">
+  <defs>
+    <filter id="Rectangle" x="0" y="0" width="40" height="39" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#5ecb75" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon" transform="translate(6.5 4.5)">
+    <g id="Interaction_Check_Icon_Marked_" data-name="Interaction/Check Icon[Marked]">
+      <g transform="matrix(1, 0, 0, 1, -6.5, -4.5)" filter="url(#Rectangle)">
+        <g id="Rectangle-2" data-name="Rectangle" transform="translate(6.5 4.5)" fill="#fff" stroke="#36ce6b" stroke-miterlimit="10" stroke-width="0.5">
+          <rect width="27" height="26" rx="13" stroke="none"/>
+          <rect x="-0.25" y="-0.25" width="27.5" height="26.5" rx="13.25" fill="none"/>
+        </g>
+      </g>
+      <path id="Check" d="M14.337.325a1,1,0,0,1,1.554,1.253l-.079.1L6.553,11.784a1,1,0,0,1-1.322.136l-.1-.08L.318,7.35A1,1,0,0,1,1.585,5.807l.1.08,4.077,3.8Z" transform="translate(5.463 6.945)" fill="#121414"/>
+    </g>
+  </g>
+</svg>

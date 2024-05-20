@@ -1,0 +1,37 @@
+{
+  "UserAgent": "aws-amplify-cli/2.0",
+  "Version": "1.0",
+  "auth": {
+    "plugins": {
+      "awsCognitoAuthPlugin": {
+        "UserAgent": "aws-amplify-cli/0.1.0",
+        "Version": "0.1.0",
+        "CognitoUserPool": {
+          "Default": {
+            "PoolId": "eu-central-1_qMLXUMUDR",
+            "AppClientId": "13gmnrk8bivk4asie7uj54nivj",
+            "Region": "eu-central-1"
+          }
+        },
+        "Auth": {
+          "Default": {
+            "OAuth": {
+              "WebDomain": "auth.crowdealz.com",
+              "AppClientId": "13gmnrk8bivk4asie7uj54nivj",
+              "SignInRedirectURI": "punchy://login/oauth2/code/oidc",
+              "SignOutRedirectURI": "punchy://",
+              "Scopes": [
+                "phone",
+                "email",
+                "openid",
+                "profile",
+                "aws.cognito.signin.user.admin"
+              ]
+            },
+            "authenticationFlowType": "USER_PASSWORD_AUTH"
+          }
+        }
+      }
+    }
+  }
+}

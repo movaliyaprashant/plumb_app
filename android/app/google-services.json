@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "271424910344",
+    "project_id": "plumbata-prod",
+    "storage_bucket": "plumbata-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271424910344:android:f0b07257cac9205735cdbd",
+        "android_client_info": {
+          "package_name": "com.mycompany.plumbata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271424910344-3uask1kpdnr68sq6ttch9i77fa7aqvg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHEuPeMLtEvza1pPMa77oNzucndCBlNuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271424910344-3uask1kpdnr68sq6ttch9i77fa7aqvg0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "271424910344-133sefgdup8h5vk6st0t4r4d2omrujf7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.plumbata"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271424910344:android:bee127a513587a6535cdbd",
+        "android_client_info": {
+          "package_name": "com.plumbata.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271424910344-ucs46mtpj2qj3n3q25lvhm3hpucue8ua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plumbata.prod",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "271424910344-3uask1kpdnr68sq6ttch9i77fa7aqvg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHEuPeMLtEvza1pPMa77oNzucndCBlNuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271424910344-3uask1kpdnr68sq6ttch9i77fa7aqvg0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "271424910344-133sefgdup8h5vk6st0t4r4d2omrujf7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.plumbata"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271424910344:android:ac6407a4870ba8ef35cdbd",
+        "android_client_info": {
+          "package_name": "com.plumbata.prod.plumbata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271424910344-3uask1kpdnr68sq6ttch9i77fa7aqvg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHEuPeMLtEvza1pPMa77oNzucndCBlNuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271424910344-3uask1kpdnr68sq6ttch9i77fa7aqvg0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "271424910344-133sefgdup8h5vk6st0t4r4d2omrujf7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.plumbata"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

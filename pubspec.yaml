@@ -1,0 +1,175 @@
+name: plumbata
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 2.0.6+39
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  ## Tools
+  get: ^4.6.4
+  get_it: ^7.6.4
+  provider: ^6.0.5
+  intl: ^0.18.0
+#  date_utils: ^0.2.0
+  timeago: ^3.6.0
+#  google_fonts: ^6.1.0
+  flutter_datetime_picker_plus: ^2.1.0
+  image_picker: ^1.0.4
+  shared_preferences: ^2.2.2
+  flutter_advanced_switch: ^3.0.1
+  search_choices: ^2.2.7
+#  in_app_review: ^1.0.2
+#  connectivity_plus: ^5.0.1
+#  flutter_local_notifications: ^1.4.4+4
+  collection: ^1.17.1
+#  location: ^3.0.2
+#  geolocator: ^5.3.2+2
+#  geocoder: ^0.2.1
+  google_sign_in: ^6.1.5
+#  timezone: ^0.9.2
+  email_validator: ^2.1.17
+  flutter_screenutil: ^5.9.0
+  responsive_framework: ^1.1.1
+  connectivity: ^3.0.4
+  file_picker: ^5.5.0
+  firebase_remote_config: ^4.3.8
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.10
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  sign_in_with_apple: ^5.0.0
+  firebase_storage: ^11.6.0
+  path_provider: ^2.1.1
+  time_picker_sheet: ^0.0.2+1
+  video_player: ^2.7.2
+  image: ^4.1.3
+  url_launcher: ^6.1.14
+
+
+  ## UI
+  another_flushbar: ^1.12.30
+  flutter_svg: ^2.0.8
+  badges: ^3.1.2
+  dotted_border: ^2.1.0
+  dotted_line: ^3.2.2
+#  flutter_rating_bar: ^3.0.1+1
+#  url_launcher: ^6.2.1
+  cached_network_image: ^3.3.0
+#  flutter_staggered_grid_view: ^0.3.4
+  expandable: ^5.0.1
+  pin_code_fields: ^8.0.1
+  syncfusion_flutter_calendar: ^23.1.43
+  modal_bottom_sheet: ^3.0.0-pre
+  bubble_tab_indicator: ^0.1.6
+  flutter_switch: ^0.3.2
+  intl_phone_number_input: ^0.7.3+1
+  syncfusion_flutter_gauges: ^23.1.43
+  firebase_analytics: ^10.8.0
+  flutter_widget_from_html: ^0.14.9
+  firebase_crashlytics: ^3.4.9
+  fine_stepper: ^0.3.0
+  dropdown_button2: ^2.3.9
+  flutter_chat_ui: ^1.6.10
+  open_filex: ^4.3.4
+  flutter_sound: ^9.2.13
+  percent_indicator: ^4.2.2
+  permission_handler: ^10.2.0
+  audioplayers: ^3.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/amplify/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/open_sans_light.ttf
+          weight: 200
+        - asset: fonts/open_sans_regular.ttf
+          weight: 400
+        - asset: fonts/open_sans_semi_bold.ttf
+          weight: 500
+        - asset: fonts/open_sans_bold.ttf
+          weight: 700
+        - asset: fonts/open_sans_extra_bold.ttf
+          weight: 900
+
+    - family: Cairo
+      fonts:
+        - asset: fonts/cairo/cairo_light.ttf
+          weight: 200
+        - asset: fonts/cairo/cairo_regular.ttf
+          weight: 400
+        - asset: fonts/cairo/cairo_semi_bold.ttf
+          weight: 500
+        - asset: fonts/cairo/cairo_bold.ttf
+          weight: 700
+        - asset: fonts/cairo/cairo_black.ttf
+          weight: 900
+
+    - family: Avenir
+      fonts:
+        - asset: fonts/avenir/avenir_regular.ttf
+          weight: 300
+        - asset: fonts/avenir/avenir_medium.ttf
+          weight: 500
+        - asset: fonts/avenir/avenir_black.otf
+          weight: 800
+        - asset: fonts/avenir/avenir_black.otf
+          weight: 900
+
+    - family: AvenirBold
+      fonts:
+        - asset: fonts/avenir/avenir_regular.ttf
+          weight: 400
+
+
+flutter_intl:
+  enabled: true
